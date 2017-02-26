@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/reviewview">
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/black"
+        ></TextView>
+    <TextView
+        android:id="@+id/reviewname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center|center_horizontal"
+        android:textColor="@android:color/black"
+        android:text="Every child comes into the world full
+        of promises"
+        android:textSize="25dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/reviewcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center|center_horizontal"
+        android:textColor="@android:color/black"
+        android:text="Every child comes into the world full
+        of promises"
+        android:textSize="15dp"
+        ></TextView>
+
+</LinearLayout>
